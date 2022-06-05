@@ -1,12 +1,12 @@
-// import { TodoProvider } from "../context/todoContext";
+import { MarvelContextProvider } from "../context/marvel-provider";
 import { AppUI } from "./AppUI";
 
 function App(){
 
   return (
-    // <TodoProvider>
+    <MarvelContextProvider>
       <AppUI />
-    // </TodoProvider>
+    </MarvelContextProvider>
   )
 }
 
