@@ -3,7 +3,7 @@ import { NameModel } from '../models/name';
 export class HttpStoreNames {
     url: string;
     constructor() {
-        this.url = 'http://localhost:8080/names';
+        this.url = 'http://localhost:3521/names';
     }
 
     getNames(): Promise<Array<NameModel>> {

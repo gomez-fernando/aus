@@ -17,7 +17,7 @@ function AppUI(){
 
   const{ homePageCharacters } = useContext(MarvelContext);
 
-  console.log(homePageCharacters);
+  // console.log(homePageCharacters);
   // homePageCharacters.map(item => console.log(item))
 
   // const [img, setImg] = useState('');
